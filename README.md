@@ -25,11 +25,14 @@ Combined both datasets and removed missing values. Eliminated redundant columns 
 
 ### Baseline Model
 
-Started with Logistic Regression using all features, achieving 62% recall. Experimented with feature selection but saw minimal improvement.
+Started with Logistic Regression using all features, achieving 62% recall.
+
+### Feature Selection (Logistic Regression) 
+Extracted the top 6 most important features, chosen by the previous logisticv regression model i.e.: net_margin	margin_net_pow_ele	forecast_price_energy_off_peak	cons_gas_12m	num_years_antig	price_peak_fix. Logistic Regression with these selected features achieved 63% recall and 14% precision at threshold 0.4.
 
 ### Model Improvement
 
-Implemented Random Forest with class weighting ({0:1, 1:10}) using all features for optimal performance. Lowered decision threshold from 0.5 to 0.4 to maximize churner detection.
+Implemented Random Forest with class weighting ({0:1, 1:10}), using all features, achieving comparable performance: 63% recall and 15% precision at threshold 0.4. Key finding: Feature selection and ensemble methods produced similar results, suggesting the top features capture most of the predictive signal. Chose Random Forest for the final model due to its robustness and ability to capture non-linear relationships.
 
 ## Visualizations
 
