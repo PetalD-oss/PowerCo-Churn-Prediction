@@ -1,2 +1,2 @@
 # PowerCo-Churn-Prediction
-Predicting SME customer churn by handling class imbalance and optimizing for business impact 
+PowerCo is a major European gas and electricity company. It supplies to SME (Small & Medium enterprises), and residential customers. A significant customer loss is being faced in their SME segment following market deregulation. 
