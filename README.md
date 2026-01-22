@@ -3,6 +3,10 @@ PowerCo is a major European gas and electricity company. It supplies to SME (Sma
 
 ## REPO CONTENTS 
 ### 1. client_data 
-<ul> kdjlksjlkjw</ul>
+* Contains the client - specific details
 ### 2. price_data 
-### 3. data_description 
+* Includes the price details during different seasons
+### 3. Data_description 
+* Each header clearly explained
+### 4. Churn_Analysis.ipynb
+* contains the code, including analysis, predictive modelling, and visualization 
