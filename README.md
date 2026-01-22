@@ -1,6 +1,6 @@
 # PowerCo Customer Churn Prediction
 
-PowerCo is a major European gas and electricity provider serving SME (Small & Medium Enterprise) and residential customers. Following market deregulation, the company faces significant customer losses in their SME segment. With acquisition costs far exceeding retention costs, identifying at-risk customers before they churn is critical to protecting revenue.
+PowerCo is a major European gas and electricity provider serving SME (Small & Medium Enterprise) and residential customers. Following market deregulation, the company faces significant customer losses in its SME segment. With acquisition costs far exceeding retention costs, identifying at-risk customers before they churn is critical to protecting revenue.
 
 ## Repo Contents 
 
@@ -28,7 +28,7 @@ Combined both datasets and removed missing values. Eliminated redundant columns 
 Started with Logistic Regression using all features, achieving 62% recall.
 
 ### Feature Selection (Logistic Regression) 
-Extracted the top 6 most important features, chosen by the previous logisticv regression model i.e.: net_margin	margin_net_pow_ele	forecast_price_energy_off_peak	cons_gas_12m	num_years_antig	price_peak_fix. Logistic Regression with these selected features achieved 63% recall and 14% precision at threshold 0.4.
+Extracted the top 6 most important features, chosen by the previous logistic regression model, i.e., net_margin,	margin_net_pow_ele, forecast_price_energy_off_peak, cons_gas_12m, num_years_antig, and	price_peak_fix. Logistic Regression with these selected features achieved 63% recall and 14% precision at a threshold of 0.4.
 
 ### Model Improvement
 
